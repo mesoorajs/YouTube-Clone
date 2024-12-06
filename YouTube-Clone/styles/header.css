@@ -1,0 +1,127 @@
+.header{
+  height: 55px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 100;
+  background-color: white;
+  border-bottom-width: 1px ;
+  border-bottom-style: solid;
+  border-bottom-color: rgb(235, 233, 233);
+  
+}
+.left-section{
+  align-items: center;
+  display: flex;
+}
+.middile-section{
+  flex: 1;
+  margin-left: 30px;
+  margin-right: 35px;
+  max-width: 500px;
+  display: flex;
+  align-items: center;
+}
+.right-section{
+  width: 180px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-right: 20px;
+  flex-shrink: 0;
+   
+}
+.ham{
+  height: 20px;
+  margin-left: 24px;
+  margin-right: 20px;
+ 
+}
+.ytlogo{
+  height: 20px;
+}
+.search-icon{
+  height: 24px;
+  margin-top: 4px  ;
+
+
+
+}
+.voice-icon{
+  height: 25px;
+  margin-top: 4px;
+
+
+}
+.Search-bar::placeholder{
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 16px;
+}
+.Search-bar{
+  flex: 1;
+  height: 36px;
+  padding-left: 12px;
+  border-width: 1px;
+  border-style: solid;
+  border-color: rgb(145, 142, 142);
+  border-radius: 3px;
+  box-shadow:inset 1px 2px 5px rgb(0, 0, 0, 0.03) ;
+  width: 0;
+
+}
+.search-button{
+  height: 40px;
+  width: 66px;
+  border-width: 1px;
+  border-style: solid;
+  border-color: rgb(145, 142, 142);
+  background-color: rgb(243, 243, 243);
+  margin-left: -1px;
+}
+.voicesearch-button{
+  height: 40px;
+  width: 40px;
+  border-radius: 90px;
+  margin-left: 10px;
+  border-style: none;
+  background-color: rgb(245, 245, 245);
+ 
+
+
+}
+.upload-icon{
+  height: 24px;
+}
+.ytapps-icon{
+  height: 24px;
+  
+}
+.notifications-icon{
+  height: 24px;
+}
+.channel-icon{
+  height: 24px;
+  border-radius: 12px;
+}
+.notifications-icon-container{
+  position: relative;
+}
+.notifications-count{
+  position: absolute;
+  top: -2 px;
+  right: -5px;
+  background-color: rgb(255, 255, 255);
+  color: white;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 11px;
+  padding-left: 5px;
+  padding-right: 5px;
+  padding-top: 2px;
+  padding-bottom: 2px;
+  border-radius: 10px;
+
+}
